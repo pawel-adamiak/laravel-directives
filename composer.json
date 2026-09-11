@@ -1,0 +1,25 @@
+{
+    "name": "pawel-adamiak/laravel-directives",
+    "description": "Dodatkowe dyrektywy dla widoku",
+    "require": {
+        "illuminate/support": "^12.69"
+    },
+    "autoload": {
+        "psr-4": {
+            "PAdamiak\\LaravelDirectives\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paweł Adamiak",
+            "email": "p.adamiak@tryfon.eu"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PAdamiak\\LaravelDirectives\\ServiceProvider"
+            ]
+        }
+    }
+}
