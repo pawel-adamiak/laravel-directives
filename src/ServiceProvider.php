@@ -2,7 +2,7 @@
 namespace PAdamiak\LaravelDirectives;
 
 use Illuminate\Support\ServiceProvider as SupportServiceProvider;
-use Illuminate\Support\Facades\Blade; // Pamiętaj o imporcie!
+use Illuminate\Support\Facades\Blade;
 
 class ServiceProvider extends SupportServiceProvider
 {
